@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termine - BoulderING AG</title>
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/base/header.css">
+    <link rel="stylesheet" href="css/base/components.css">
+    <link rel="stylesheet" href="css/pages/events.css">
+    <link rel="stylesheet" href="css/base/footer.css">
+    <link rel="stylesheet" href="css/base/responsive.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Main Content -->
+    <main class="container">
+        <section class="page-header">
+            <h1 class="multilang" data-de="Termine" data-en="Events">Termine</h1>
+            <p class="multilang" 
+               data-de="Hier findest du unsere kommenden Boulder- und Klettertermine und andere Veranstaltungen."
+               data-en="Here you can find our upcoming bouldering and climbing sessions and other events.">
+               Hier findest du unsere kommenden Boulder- und Klettertermine und andere Veranstaltungen.
+            </p>
+        </section>
+
+        <!-- Thursday Sessions Notice -->
+        <div class="thursday-notice">
+            <p>
+                <span class="multilang" data-de="📅 " data-en="📅 ">📅 </span><strong class="multilang" data-de="Donnerstags regelmäßige Bouldersessions:" data-en="Regular Thursday Boulder-Sessions">Donnerstags regelmäßige Bouldersessions:</strong>
+                <span class="multilang" data-de=" Treffpunkt um 19:00 Uhr in der Nordwandhalle. Vergünstigter Eintrittspreis für AG-Mitglieder!" data-en=" Meeting point at 7:00 PM in the Nordwandhalle. Reduced entrance fee for AG members!"> Treffpunkt um 19:00 Uhr in der Nordwandhalle. Vergünstigter Eintrittspreis für AG-Mitglieder!</span>
+            </p>
+        </div>
+
+        <section class="events-list">
+            <!-- Events will be dynamically loaded from events.json -->
+        </section>
+
+    </main>
+    <script src="js/core/language.js"></script>
+    <script src="js/core/header-footer.js"></script>
+    <script src="js/pages/events.js"></script>
+    <script src="js/core/main.js"></script>
+</body>
+</html>
